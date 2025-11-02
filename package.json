@@ -11,6 +11,6 @@
     "node-red-contrib-image-tools": "^2.0.2"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": "18.x"
   }
 }
