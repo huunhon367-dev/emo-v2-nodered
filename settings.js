@@ -5,7 +5,7 @@ module.exports = {
         type: "credentials",
         users: [{
             username: "admin",
-            password: "$2b$08$zTjL8CfGXwY6VxqQKJqW5.Qr2fqQrqC0jJqQrqQrqQrqQrqQrqQr",
+            password: "$2a$08$C5Micms3izsvl0KuyzHrh.JnnANvLsaHV7ViDwn7D.4vzdnxffi0u",
             // Password mặc định: "emov2123"
             // Đổi sau khi tạo xong
             permissions: "*"
@@ -23,6 +23,7 @@ module.exports = {
             level: "info",
             metrics: false,
             audit: false
+            credentialSecret: "emo_secret_key",
         }
     }
 }
