@@ -1,0 +1,16 @@
+{
+  "name": "emo-v2-nodered",
+  "version": "1.0.0",
+  "description": "Node-RED cho EMO V2",
+  "scripts": {
+    "start": "node-red --settings ./settings.js"
+  },
+  "dependencies": {
+    "node-red": "^3.1.0",
+    "node-red-dashboard": "^3.6.0",
+    "node-red-contrib-image-tools": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
