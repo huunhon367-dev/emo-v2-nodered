@@ -17,13 +17,12 @@ module.exports = {
     ui: { path: "ui" },
     
     functionGlobalContext: {},
-    
+    credentialSecret: "emo_secret_key",
     logging: {
         console: {
             level: "info",
             metrics: false,
             audit: false
-            credentialSecret: "emo_secret_key",
         }
     }
 }
